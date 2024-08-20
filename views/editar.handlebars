@@ -1,0 +1,10 @@
+<h1>Formulário</h1>
+<form action="/edit-petshow/{{petshow.id}}" method="POST">
+
+    ID: {{petshow.id}}
+    <label>Nome</label>
+    <input type="text" name="nome"value="{{petshow.nome}}"><br><br>
+    <label>Valor</label>
+    <input type="text" name="raca" value="{{petshow.raca}}"><br><br>
+    <button type="sumbit">Atualizar</button>
+</form>

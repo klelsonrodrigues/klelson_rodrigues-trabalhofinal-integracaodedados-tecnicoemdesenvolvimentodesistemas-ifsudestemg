@@ -1,0 +1,39 @@
+.body{
+   background-color: aqua ;
+   font-style: italic;
+   text-align: justify; 
+   color: black
+}
+.h1{
+   background-color: blueviolet;
+   font-style: italic;
+   text-align: justify;
+}
+.h2{
+   background-color: greenyellow;
+   font-style: italic;
+   text-align: justify;
+}
+.input{
+   background-color: blue;
+   font-style: italic;
+   text-align: justify;
+} 
+.label{
+   background-color: brown;
+   text-align: justify;
+   font-style: italic;
+   color: beige;
+}
+.button{
+   background-color:red;
+   text-align: center;
+   color: beige;
+
+}
+.footer{
+   background-color:black;
+   text-align: center;
+   color: aqua;
+
+}

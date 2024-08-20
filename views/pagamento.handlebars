@@ -1,0 +1,11 @@
+<h1>Listar petshow</h1>
+
+{{#each petshow}}
+    ID: {{id}}<br>
+    Nome: {{nome}}<br>
+    Valor: {{valor}}<br>
+    Cadastrado: {{#formatDate createdAt}}{{/formatDate}}<br>
+    <a href="/del-petshow/{{id}}"><button>Apagar</button></a> <br>
+    <a href="/edit-petshow/{{id}}"><button>Editar</button></a>
+    <hr>
+{{/each}}
